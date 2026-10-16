@@ -30,3 +30,57 @@ button {
 }
 
 /* Scrivi qui sotto i tuoi stili */
+
+body {
+  background-color: #EAEDED;
+}
+
+header {
+  background-color: #131921;
+  padding: 12px 24px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  color: #FF9900;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 24px;
+}
+
+form {
+  display: inline-block;
+  vertical-align: middle;
+  width: 55%;
+}
+
+header input {
+  width: 80%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+header button {
+  background-color: #FEBD69;
+  padding: 8px 16px;
+  border-radius: 0 4px 4px 0;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 24px;
+}
+
+nav a {
+  color: white;
+  margin-left: 16px;
+}
+
+#carrello {
+  background-color: #232F3E;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
