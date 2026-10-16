@@ -1,4 +1,5 @@
-/* CSS reset minimo */
+/* ---------- BASE ---------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: #111;
-  background: #fff;
+  background-color: #EAEDED;
 }
 
 img {
@@ -29,11 +30,13 @@ button {
   background: none;
 }
 
-/* Scrivi qui sotto i tuoi stili */
-
-body {
-  background-color: #EAEDED;
+h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
 }
+
+
+/* ---------- HEADER ---------- */
 
 header {
   background-color: #131921;
@@ -49,6 +52,7 @@ header {
   margin-right: 24px;
 }
 
+/* ricerca */
 form {
   display: inline-block;
   vertical-align: middle;
@@ -68,6 +72,7 @@ header button {
   border-radius: 0 4px 4px 0;
 }
 
+/* nav */
 nav {
   display: inline-block;
   vertical-align: middle;
@@ -85,6 +90,9 @@ nav a {
   border-radius: 4px;
 }
 
+
+/* ---------- HERO ---------- */
+
 .hero {
   background-color: #303F51;
   color: white;
@@ -101,13 +109,11 @@ h1 {
   font-size: 18px;
 }
 
+
+/* ---------- CATEGORIE ---------- */
+
 .categorie {
   padding: 32px 24px;
-}
-
-h2 {
-  font-size: 24px;
-  margin-bottom: 16px;
 }
 
 .card-categoria {
@@ -135,6 +141,67 @@ h2 {
   color: #007185;
   font-size: 14px;
 }
+
+
+/* ---------- PRODOTTI ---------- */
+
+.prodotti {
+  padding: 0 24px 40px 24px;
+}
+
+.card-prodotto {
+  display: inline-block;
+  vertical-align: top;
+  width: 23%;
+  margin: 0 1.5% 20px 0;
+  padding: 14px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.card-prodotto img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.card-prodotto h3 {
+  font-size: 14px;
+  font-weight: normal;
+  height: 42px;
+}
+
+.stelle {
+  color: #FF9900;
+  font-size: 14px;
+}
+
+.prezzo {
+  color: #B12704;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* bottone */
+.card-prodotto button {
+  width: 100%;
+  padding: 8px;
+  background-color: #FFD814;
+  border-radius: 20px;
+}
+
+.card-prodotto button:hover {
+  background-color: #F7CA00;
+}
+
+.card-prodotto button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #DDDDDD;
+}
+
+
+/* ---------- FOOTER ---------- */
 
 footer {
   background-color: #232F3E;
